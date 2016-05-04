@@ -1,0 +1,8 @@
+{
+  "name": "robocarv2",
+  "version":"0.0.1",
+  "dependencies":{
+    "johnny-five":"latest",
+    "http":"latest"
+  }
+}
