@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>A Window...</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Hiiii!!!</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Here is some info about your computer...</h3>
+        <div class="stats">
+          <div>
+            CPU: <span class="cpu"></span><br />
+            Cores: <span class="cores"></span><br />
+            Memory: <span class="freemem"></span><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.min.js');</script>
+    <script>require('./index.js')</script>
+  </div>
+</body>
+</html>
